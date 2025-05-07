@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+# Virtual env
+env/
+venv/
+
+# VS Code
+.vscode/
+
+# Docker
+pgdata/
+*.log
+
+# Byte-compiled / optimized / DLL files
+*.egg
+*.egg-info
+dist/
+build/
+.eggs/

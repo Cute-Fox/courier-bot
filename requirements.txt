@@ -1,0 +1,4 @@
+pyTelegramBotAPI[asyncio]==4.14.0
+asyncpg
+SQLAlchemy>=2.0
+python-dotenv
