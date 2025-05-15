@@ -1,5 +1,3 @@
-# db/models.py
-
 from sqlalchemy import Column, Integer, String, Text, ForeignKey, DateTime, Enum, ARRAY
 from sqlalchemy.orm import declarative_base, relationship
 from datetime import datetime
@@ -58,3 +56,4 @@ class Message(Base):
     to_user    = Column(Integer, ForeignKey("users.id"), nullable=False)
     text       = Column(Text, nullable=False)
     created_at = Column(DateTime, default=datetime.utcnow)
+
